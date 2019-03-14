@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LecturerMainActivity"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="604dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foc"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:text="Faculty of Computing"
+                android:gravity="center"
+                android:textColor="#080d67"
+                android:textSize="25dp"
+                />
+
+            <TextView
+                android:id="@+id/foe"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Faculty of Engineering"
+                android:gravity="center"
+                android:textColor="#080d67"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/fol"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Faculty of Law"
+                android:gravity="center"
+                android:textColor="#080d67"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/fom"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Faculty of Medicine"
+                android:gravity="center"
+                android:textColor="#080d67"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/fosh"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:text="Faculty of Alied Health Sciences"
+                android:gravity="center"
+                android:textColor="#080d67"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/foma"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:text="Faculty of Management"
+                android:gravity="center"
+                android:textColor="#080d67"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

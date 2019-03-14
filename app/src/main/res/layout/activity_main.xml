@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="Get Your Weekly TimeTable"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/buttonUploadFile"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFileName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Upload"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No file selected"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/textViewUploads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="Click here to Download"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="#080D67"/>
+
+    </LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:src="@drawable/foc" />
+
+
+</RelativeLayout>
