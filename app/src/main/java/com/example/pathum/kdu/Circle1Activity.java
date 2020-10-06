@@ -10,6 +10,7 @@ import com.hitomi.cmlibrary.CircleMenu;
 import com.hitomi.cmlibrary.OnMenuSelectedListener;
 import com.hitomi.cmlibrary.OnMenuStatusChangeListener;
 
+//circle activity 
 public class Circle1Activity extends AppCompatActivity {
     CircleMenu circleMenu;
     @Override
